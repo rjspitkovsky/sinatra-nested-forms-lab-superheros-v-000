@@ -2,7 +2,7 @@ require 'sinatra/base'
 
 require './config/environment'
 
-require
+
 
 
 class App < Sinatra::Base
