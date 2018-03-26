@@ -1,5 +1,9 @@
 require 'sinatra/base'
+
 require './config/environment'
+
+
+
 
 class App < Sinatra::Base
 
@@ -7,6 +11,7 @@ class App < Sinatra::Base
 
     get '/' do
       erb :super_hero
+
     end
 
     post '/teams' do
@@ -16,6 +21,7 @@ class App < Sinatra::Base
       end
       @heroes = Hero.all
       erb :team
+
     end
 
 
