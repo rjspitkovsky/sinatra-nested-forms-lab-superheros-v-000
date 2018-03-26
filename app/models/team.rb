@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Team
 
   attr_accessor :name, :motto
@@ -15,3 +16,7 @@ class Team
   end
 
 end
+=======
+class Team 
+
+>>>>>>> e85ab2c306754ce57af54ed4e045546ff32fcd68
